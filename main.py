@@ -55,7 +55,7 @@ def find_osha_symbol_in_pdf(pdf_path, symbol_image_path, threshold=0.8):
         print(f"Error processing PDF: {e}")
         return False
 
-# Example Usage:
+# Enter file names here:
 pdf_file = "/home/cythreal/workspace/github.com/cythreal/OIR/hydrogen_peroxide.pdf"  # Replace with your PDF file path
 osha_symbol_image = "/home/cythreal/workspace/github.com/cythreal/OIR/ex_mark.png"  # Replace with the OSHA symbol image path
 
